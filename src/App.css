@@ -39,6 +39,7 @@ header .logo span {
 @media (max-width: 375px) {
   header {
     flex-direction: column;
+    gap: 5px;
   }
 }
 
