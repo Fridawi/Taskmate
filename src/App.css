@@ -36,6 +36,11 @@ header .logo span {
   cursor: pointer;
   color: #525252;
 }
+@media (max-width: 375px) {
+  header {
+    flex-direction: column;
+  }
+}
 
 header .themeSelector span {
   height: 20px;
@@ -72,6 +77,11 @@ header .themeSelector .activeTheme {
   border: 1px solid #eaeaea;
   border-radius: 5px;
   font-size: 18px;
+}
+@media (max-width: 375px) {
+  .addTask form input {
+    width: 187px;
+  }
 }
 
 .addTask form input:focus {
